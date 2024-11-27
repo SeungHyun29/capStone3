@@ -12,14 +12,14 @@
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:contentDescription="PILL MOA Logo" />
+        android:contentDescription="@string/content_description_logo" />
 
     <!-- ID Input Field -->
     <EditText
         android:id="@+id/editTextID"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="ID"
+        android:hint="@string/hint_id"
         android:layout_below="@id/appLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
@@ -31,7 +31,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="PW"
+        android:hint="@string/hint_password"
         android:inputType="textPassword"
         android:layout_below="@id/editTextID"
         android:layout_centerHorizontal="true"
@@ -44,7 +44,7 @@
         android:id="@+id/buttonLogin"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="@string/login_button_text"
         android:layout_below="@id/editTextPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -57,7 +57,7 @@
         android:id="@+id/buttonCreateAccount"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="CREATE ACCOUNT"
+        android:text="@string/create_account_button_text"
         android:layout_below="@id/buttonLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"

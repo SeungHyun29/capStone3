@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">capStone3</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_password">PW</string>
+    <string name="content_description_logo">PILL MOA Logo</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="create_account_button_text">CREATE ACCOUNT</string>
+
 </resources>

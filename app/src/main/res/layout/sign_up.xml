@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19b34d">
+
+    <!-- Logo Header -->
+    <ImageView
+        android:id="@+id/headerLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="PILL MOA Header Logo" />
+
+    <!-- ID Input Field -->
+    <EditText
+        android:id="@+id/signUpEditTextID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"
+        android:layout_below="@id/headerLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/white"
+        android:padding="10dp" />
+
+    <!-- Password Input Field -->
+    <EditText
+        android:id="@+id/signUpEditTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/signUpEditTextID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:padding="10dp" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_below="@id/signUpEditTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#32cd32"
+        android:textColor="#000000"
+        android:padding="10dp" />
+</RelativeLayout>
